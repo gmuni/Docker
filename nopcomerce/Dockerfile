@@ -10,3 +10,5 @@ COPY --from=builder /nop /nop-bin
 WORKDIR /nop-bin
 EXPOSE 80
 CMD [ "dotnet", "/nop-bin/Nop.Web.dll" ]
+
+
